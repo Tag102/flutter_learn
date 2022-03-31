@@ -9,7 +9,10 @@ class Homepage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: const Text("this is my try flutter app"),
+          child: const Text(
+            "this is my try flutter app",
+            style: TextStyle(color: Colors.red),
+          ),
         ),
       ),
     );
